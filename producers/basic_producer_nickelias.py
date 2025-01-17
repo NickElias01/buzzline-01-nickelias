@@ -62,6 +62,8 @@ def get_message_interval() -> int:
 ADJECTIVES: list = ["amazing", "funny", "boring", "exciting", "weird"]
 ACTIONS: list = ["found", "saw", "tried", "shared", "loved"]
 TOPICS: list = ["a movie", "a meme", "an app", "a trick", "a story"]
+LOCATIONS: list = ["in the park", "at the beach", "on the subway", "at the office", "at a friend's place"]
+EMOTIONS: list = ["happy", "confused", "thrilled", "disappointed", "amazed"]
 
 #####################################
 # Define a function to generate buzz messages
@@ -83,7 +85,9 @@ def generate_messages():
         adjective = random.choice(ADJECTIVES)
         action = random.choice(ACTIONS)
         topic = random.choice(TOPICS)
-        yield f"I just {action} {topic}! It was {adjective}."
+        location = random.choice(LOCATIONS)
+        emotion = random.choice(EMOTIONS)
+        yield f"I just {action} {topic} {location}! It was {adjective} and now I feel {emotion}."
 
 
 #####################################
@@ -111,10 +115,11 @@ def main() -> None:
     interval_secs: int = get_message_interval()
 
     for message in generate_messages():
-        logger.info(message)
+        logger.info(f"[BUZZ] {message}")
         # Use the time module to pause execution for a specified number of seconds
         # The time.sleep() function takes a single argument: the number of seconds to pause
         time.sleep(interval_secs)
+        
 
     logger.info("NOTE: See the `logs` folder to learn more.")
     logger.info("END producer.....")
