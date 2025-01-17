@@ -42,3 +42,27 @@
 2025-01-17 10:08:09.723 | INFO     | __main__:main:118 - [BUZZ] I just found a story at a friend's place! It was exciting and now I feel confused.
 2025-01-17 10:08:10.295 | WARNING  | __main__:track_positive_words:51 - ALERT: Positive word count reached 5!
 2025-01-17 10:08:12.724 | INFO     | __main__:main:118 - [BUZZ] I just found a meme at the beach! It was funny and now I feel happy.
+2025-01-17 10:38:37.611 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-17 10:38:37.613 | INFO     | __main__:main:98 - START producer...
+2025-01-17 10:38:37.614 | INFO     | __main__:main:99 - Hit CTRL+C (or CMD+C) to stop.
+2025-01-17 10:38:37.614 | INFO     | __main__:get_message_interval:48 - Messages will be sent every 3 seconds.
+2025-01-17 10:38:37.614 | INFO     | __main__:main:106 - [BUZZ] I just tried a story at the office! It was weird, and now I feel amazed.
+2025-01-17 10:38:40.614 | INFO     | __main__:main:106 - [BUZZ] I just found a meme on the subway! It was amazing, and now I feel happy.
+2025-01-17 10:38:43.616 | INFO     | __main__:main:106 - [BUZZ] I just shared a trick at the beach! It was amazing, and now I feel confused.
+2025-01-17 10:38:46.617 | INFO     | __main__:main:106 - [BUZZ] I just loved an app at the beach! It was funny, and now I feel thrilled.
+2025-01-17 10:38:49.618 | INFO     | __main__:main:106 - [BUZZ] I just saw a story at a friend's place! It was funny, and now I feel amazed.
+2025-01-17 10:38:52.620 | INFO     | __main__:main:106 - [BUZZ] I just tried a meme at the office! It was boring, and now I feel thrilled.
+2025-01-17 10:38:55.620 | INFO     | __main__:main:106 - [BUZZ] I just shared a story in the park! It was amazing, and now I feel confused.
+2025-01-17 10:38:58.621 | INFO     | __main__:main:106 - [BUZZ] I just found a movie in the park! It was weird, and now I feel thrilled.
+2025-01-17 10:39:01.622 | INFO     | __main__:main:106 - [BUZZ] I just shared a story at the office! It was weird, and now I feel confused.
+2025-01-17 10:39:04.623 | INFO     | __main__:main:106 - [BUZZ] I just tried a trick on the subway! It was amazing, and now I feel thrilled.
+2025-01-17 10:39:07.312 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-17 10:39:07.312 | INFO     | __main__:main:131 - START...
+2025-01-17 10:39:07.313 | INFO     | __main__:main:135 - Reading file located at logs\project_log.log.
+2025-01-17 10:39:07.624 | INFO     | __main__:main:106 - [BUZZ] I just found a movie at the beach! It was boring, and now I feel thrilled.
+2025-01-17 10:39:10.626 | INFO     | __main__:main:106 - [BUZZ] I just loved a meme at the beach! It was boring, and now I feel disappointed.
+2025-01-17 10:39:13.627 | INFO     | __main__:main:106 - [BUZZ] I just tried a meme in the park! It was amazing, and now I feel thrilled.
+2025-01-17 10:39:16.628 | INFO     | __main__:main:106 - [BUZZ] I just saw a meme in the park! It was funny, and now I feel disappointed.
+2025-01-17 10:39:17.328 | WARNING  | __main__:track_positive_words:64 - ALERT: Positive word count reached 5!
+2025-01-17 10:39:19.629 | INFO     | __main__:main:106 - [BUZZ] I just tried an app at a friend's place! It was funny, and now I feel amazed.
+2025-01-17 10:39:22.631 | INFO     | __main__:main:106 - [BUZZ] I just found a movie on the subway! It was weird, and now I feel happy.
